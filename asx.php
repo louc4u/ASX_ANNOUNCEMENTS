@@ -50,7 +50,7 @@ foreach($the_array as $field ) {
     echo '<div class="announce-i"><div class="announce-ia">';
     $linka = $field
             ->documentKey;
-    echo '<a href="markitdigital_url'.$linka.'?access_token='.$linka.'" target="_blank"?>';
+    echo '<a href="https://asx.api.markitdigital.com/asx-research/1.0/file/'.$linka.'?access_token='.$linka.'" target="_blank"?>';
     $date = $field
             ->date;
     //$datex = parse_str($date);
